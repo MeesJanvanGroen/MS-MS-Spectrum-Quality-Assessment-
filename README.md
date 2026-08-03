@@ -1,4 +1,4 @@
-# MS/MS Chemical Plausibility Quality Assessment 
+# MS/MS Chemical Plausibility Quality Assessment - Delivery Package
 
 This folder contains the curated files for sharing the final project workflow without the exploratory notebooks.
 

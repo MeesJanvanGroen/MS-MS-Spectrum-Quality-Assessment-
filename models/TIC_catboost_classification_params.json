@@ -1,0 +1,20 @@
+{
+  "saved_at": "2026-06-23 14:46:17",
+  "model_path": "/home/mgroen2/my_model_project/Data/Model/Model/TIC_catboost_classification_model_final_round3.cbm",
+  "train_long_path": "/home/mgroen2/my_model_project/Data/Model/TIC_train_classification_long_no_inchikey_oxygen.pkl",
+  "val_long_path": "/home/mgroen2/my_model_project/Data/Model/TIC_val_classification_long_no_inchikey_oxygen.pkl",
+  "n_train_rows": 583626,
+  "n_val_rows": 72824,
+  "n_features": 4458,
+  "hyperparameters": {
+    "iterations": 512,
+    "depth": 12,
+    "learning_rate": 0.4,
+    "l2_leaf_reg": 10.0,
+    "loss_function": "Logloss",
+    "eval_metric": "F1",
+    "random_seed": 42,
+    "verbose": false,
+    "thread_count": -1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "DATASET_TAG": "matched_80k_10k_10k",
+  "TRAIN_LONG_FILENAME": "TIC_train_classification_long_df_matched_80k_10k_10k_oxygen.pkl",
+  "VAL_LONG_FILENAME": "TIC_val_classification_long_df_matched_80k_10k_10k_oxygen.pkl",
+  "TEST_LONG_FILENAME": "TIC_test_classification_long_df_matched_80k_10k_10k_oxygen.pkl",
+  "CATBOOST_PARAMS": {
+    "iterations": 512,
+    "depth": 12,
+    "learning_rate": 0.15,
+    "l2_leaf_reg": 14.0,
+    "loss_function": "Logloss",
+    "eval_metric": "F1",
+    "random_seed": 42,
+    "verbose": false,
+    "thread_count": -1
+  }
+}

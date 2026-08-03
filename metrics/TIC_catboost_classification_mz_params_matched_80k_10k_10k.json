@@ -1,0 +1,49 @@
+{
+  "DATASET_TAG": "matched_80k_10k_10k",
+  "TRAIN_LONG_FILENAME": "TIC_mz_train_classification_long_df_matched_80k_10k_10k_oxygen.pkl",
+  "VAL_LONG_FILENAME": "TIC_mz_val_classification_long_df_matched_80k_10k_10k_oxygen.pkl",
+  "TEST_LONG_FILENAME": "TIC_mz_test_classification_long_df_matched_80k_10k_10k_oxygen.pkl",
+  "GRID_FILENAME": "TIC_mz_classification_grid.csv",
+  "K_FOLDS": 3,
+  "CATBOOST_BASE_PARAMS": {
+    "iterations": 512,
+    "loss_function": "Logloss",
+    "eval_metric": "F1",
+    "random_seed": 42,
+    "verbose": false,
+    "thread_count": -1
+  },
+  "HYPERPARAMETER_GRID": [
+    {
+      "depth": 8,
+      "learning_rate": 0.1,
+      "l2_leaf_reg": 6
+    },
+    {
+      "depth": 8,
+      "learning_rate": 0.2,
+      "l2_leaf_reg": 6
+    },
+    {
+      "depth": 10,
+      "learning_rate": 0.1,
+      "l2_leaf_reg": 6
+    },
+    {
+      "depth": 10,
+      "learning_rate": 0.1,
+      "l2_leaf_reg": 10
+    }
+  ],
+  "SELECTED_PARAMS": {
+    "iterations": 512,
+    "loss_function": "Logloss",
+    "eval_metric": "F1",
+    "random_seed": 42,
+    "verbose": false,
+    "thread_count": -1,
+    "depth": 10,
+    "learning_rate": 0.1,
+    "l2_leaf_reg": 10
+  }
+}
